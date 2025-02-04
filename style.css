@@ -91,3 +91,17 @@ video{
     border-radius: 20px;
     border:20px darkblue;
 }
+.custom-button {
+    background: linear-gradient(135deg, #75bfff, #c17eff);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.custom-button:hover {
+    background: linear-gradient(135deg, #ff5c8a, #ff6a9f);
+}
