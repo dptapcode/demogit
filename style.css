@@ -105,3 +105,28 @@ video{
 .custom-button:hover {
     background: linear-gradient(135deg, #ff5c8a, #ff6a9f);
 }
+/* Kiểu dáng cho màn hình nhỏ (điện thoại) */
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+    }
+    .column {
+        width: 100%;
+    }
+}
+
+/* Kiểu dáng cho màn hình lớn (máy tính) */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        width: 960px;
+    }
+    .column {
+        width: 50%;
+    }
+}
